@@ -32,3 +32,4 @@ sudo apt-get install libapache2-mod-wsgi
 sudo nano /etc/apache2/sites-enabled/000-default.conf
     WSGIScriptAlias / /var/www/html/myapp.wsgi
 sudo apache2ctl restart
+
