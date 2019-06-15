@@ -55,6 +55,7 @@
         * oauth2client
         * finger
         * sqlalchemy
+        * requests
 
 
 ###  A list of any third-party resources you made use of to complete this project.
