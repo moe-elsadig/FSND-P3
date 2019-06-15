@@ -1,23 +1,32 @@
 # FSND-P3
 
 
-#### The IP address and SSH port so your server can be accessed by the reviewer.
+### The IP address and SSH port so your server can be accessed by the reviewer.
 
 * The IP of the VPS/VM is `159.65.204.252`. 
 
-* The SSH port has been changed to **2200** and is the only one allowed to SSH into the VPS/VM, and to SSH in you can use `ssh grader@159.65.204.252 -p 2200`
+* The SSH port has been changed to **2200** and is the only one allowed to SSH into the VPS/VM, and to SSH in you can use 
+    
+    ```
+    ssh grader@159.65.204.252 -p 2200
+    ```
 
 * A key has also been created for the grader user and you can use `ssh grader@159.65.204.252 -p 2200 -i [PATH_TO_KEY/udacityProject]`
 
 
-#### The complete URL to your hosted web application.
+### The complete URL to your hosted web application.
 
-* Because Google doesn't accept IP addresses as top level domains I opted to go with **nip.io** which is a suggestion from the Udacity Student Hub. Therefore the domain to use to access the Web Application is `http://159.65.204.252.nip.io/`.
+* Because Google doesn't accept IP addresses as top level domains I opted to go with **nip.io** which is a suggestion from the Udacity Student Hub. Therefore the domain to use to access the Web Application is 
+    
+    ```
+    http://159.65.204.252.nip.io/
+    ```
 
 
-#### A summary of software you installed and configuration changes made.
+### A summary of software you installed and configuration changes made.
 
 * Prepare the host
+    * Started a new linux instance in DigitalOcean (Ubuntu 18.04 x64)
     * `update`, `upgrade` and `autoremove` any unecessary left-over file using `sudo apt-get`
     * Changed the timezone to UTC using `timedatectl set-timezone UTC`
 
@@ -48,7 +57,7 @@
         * sqlalchemy
 
 
-####  A list of any third-party resources you made use of to complete this project.
+###  A list of any third-party resources you made use of to complete this project.
 * Udacity Student Hub
 * StackOverFlow
 * Packages.Ubuntu.com
