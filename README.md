@@ -49,4 +49,7 @@
 
 
 ####  A list of any third-party resources you made use of to complete this project.
-
+* Udacity Student Hub
+* StackOverFlow
+* Packages.Ubuntu.com
+* Others: [https://www.one-tab.com/page/T3onzpkRSXG2RSayImN4kA](https://www.one-tab.com/page/T3onzpkRSXG2RSayImN4kA)
