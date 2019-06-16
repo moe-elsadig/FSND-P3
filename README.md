@@ -11,7 +11,7 @@
     ssh grader@159.65.204.252 -p 2200
     ```
 
-* A key has also been created for the grader user and you can use `ssh grader@159.65.204.252 -p 2200 -i [PATH_TO_KEY/udacityProject]`
+* A key has also been created for the grader user and you can use `ssh grader@159.65.204.252 -p 2200 -i [PATH_TO_KEY]/UdacityGraderKey` ***(Udacity Grader Key is in the reviewer notes)***
 
 
 ### The complete URL to your hosted web application.
@@ -37,6 +37,7 @@
     * Set the rules for the UFW (Uncomplicated Firewall) to allow the SSH port: **2200**, HTTP port: **80**, and NTP port: **123**. 
     * Modify the file `/etc/ssh/sshd_config` to reflect the port change for SSH
     * Enable the UFW after setting the settings `ufw enable ; ufw status` and view its status.
+    * Lock the login to allow only key-based authentication, therefore, only the grader user can log in
 
 * Application & Dependencies
     * Used SCP to copy the application from another machine `scp [source] [destination]`
