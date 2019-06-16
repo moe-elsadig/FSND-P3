@@ -38,6 +38,7 @@
     * Modify the file `/etc/ssh/sshd_config` to reflect the port change for SSH
     * Enable the UFW after setting the settings `ufw enable ; ufw status` and view its status.
     * Lock the login to allow only key-based authentication, therefore, only the grader user can log in
+    * **PermitRootLogin** has been set to no to disable remote login for the root user
 
 * Application & Dependencies
     * Used SCP to copy the application from another machine `scp [source] [destination]`
